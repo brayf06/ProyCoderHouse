@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Entrega</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="body">
+    <div class="test__grilla">
+        <header class="header">
+            <a href="./index.html" class="header__logo"><source><img src="../media/vecteezy_coding-logo-design-template___1_-removebg-preview.png" alt="CompanyLogo" class="header__logo"></a>
+            <h1 class="header__text">ProgSite</h1>
+            <nav>
+                <ul class="header__navegacion">
+                    <a href="../index.html" class="items__navegacion">Inicio</a>
+                    <a href="../sitio/quienessomos.html" class="items__navegacion">Quienes somos</a>
+                    <a href="../sitio/cursos.html" class="items__navegacion">Cursos</a>
+                    <a href="./contacto.html" class="items__navegacion active">Contacto</a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <!-- Formulario contacto -->
+                <form action="" method="get" enctype="text/plain" class="div__centrado">
+                    <fieldset>
+                        <legend><h1 class="header__encabezado div__centrado">Formulario de contacto</h1></legend>
+                        <label for="NombreCliente">Ingrese su Nombre:</label>
+                        <div>
+                            <input type="text" name="NombreCliente" id="NombreCliente" required>
+                        </div>
+                        <label for="MailCliente">Ingrese su Mail:</label>
+                            <div>
+                                <input type="text" name="MailCliente" id="MailCliente" required>
+                            </div>
+                        <label for="TelefonoCliente">Ingrese su Telefono:</label>
+                            <div>
+                                <input type="number" name="TelefonoCliente" id="TelefonoCliente">
+                            </div> 
+                        <label for="PaisCliente">Ingrese su Pais:</label>
+                            <div>
+                                <input type="text" name="PaisCliente" id="PaisCliente" required>
+                            </div>
+                        <span>Motivo de su consulta:</span>
+                        <div>
+                            <label for="Consulta">Consulta general</label>
+                            <input type="radio" name="Consulta" id="Consulta" value="General" >
+                        </div>
+                        <div>
+                            <label for="Consulta">Curso C#</label>
+                            <input type="radio" name="Consulta" id="Consulta" value="ConsultaCsharp" >
+                        </div>
+                        <div>
+                            <label for="Consulta">Curos Java</label>
+                            <input type="radio" name="Consulta" id="Consulta" value="ConsultaJava" >
+                        </div>
+                        <div>
+                            <label for="Consulta">Consulta Python</label>
+                            <input type="radio" name="Consulta" id="Consulta" value="ConsultaPython" >
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
