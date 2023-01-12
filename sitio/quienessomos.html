@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- AOS -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,11 +29,11 @@
     <main>
     <!-- Contenido del HTML -->
     <div>
-        <p class="header__encabezado">¿Quienes Somos?</p>
+        <h1 class="header__encabezado tracking-in-expand">¿Quienes somos?</h1>
     </div>
     <!-- Video -->
     <div class="div__centrado">
-        <iframe width="720" height="480" class="div__video" src="https://www.youtube.com/embed/YPJwPRTGmyw"
+        <iframe width="720" height="480" class="div__video shadow-drop-2-center" src="https://www.youtube.com/embed/YPJwPRTGmyw"
         frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="div__centrado">
@@ -37,6 +41,13 @@
         Las clases son virtuales, pero igualmente quedan grabadas en nuestra plataforma virtual, donde además nuestros alumnos acceden a contenido adicional gratuito. Las clases están dictadas por profesores expertos que trabajan en las mejores empresas de Latinoamérica. 
         Además, los alumnos son acompañados por tutores, quienes resuelven sus dudas y los ayudan a completar el proyecto final de la mejor manera.</p>
     </div>
+        <h1 class="header__encabezado">Empresas que confian en nuestros alumnos</h1>
+        <div class="div__centrado">
+            <img src="../media/empresa1.png" alt="ImgAmazon" class="img_empresas" data-aos="fade-right">
+            <img src="../media/empresa2.png" alt="ImgMercadoLibre" class="img_empresas" data-aos="fade-up">
+            <img src="../media/empresa3.png" alt="ImgPedidosYa" class="img_empresas" data-aos="fade-down">
+            <img src="../media/empresa4.png" alt="ImgSpotify" class="img_empresas" data-aos="fade-left">
+        </div>
     </main>
     </div>  
     <footer class="footer">
@@ -51,5 +62,8 @@
             <p class="texto_dir_footer">Madera, California(CA), 93638</p>
         </div>
     </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
