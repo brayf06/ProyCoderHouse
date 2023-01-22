@@ -129,7 +129,7 @@
     align-items: center;
 }
 
-.test__grilla{
+.div{
     display: grid;
     grid-template-rows: auto 1fr auto;
     background-color: lightgrey;
