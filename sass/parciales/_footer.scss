@@ -10,7 +10,7 @@
         justify-items: right;
         align-items: end;
     }
-    &texto__footer{
+    &__texto{
         display: flex;
         justify-content: center;
         font-family: Verdana, Geneva, sans-serif;
@@ -25,7 +25,7 @@
         text-transform: capitalize;
         background-color: lightgray;
     } 
-    &texto_dir_footer{
+    &__texto_dir{
         display: flex;
         flex-direction: row;
         font-family: "Arial", Gadget, sans-serif;

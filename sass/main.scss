@@ -1,7 +1,5 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-/* COMENTARIO DE PRUEBA */
+@import "./parciales/body";
+@import "./parciales/div";
+@import "./parciales/header";
+@import "./parciales/footer";
+@import "./parciales/mediaquery";
